@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Game>
+    <Map>
+    </Map>
+    <Systems systemList="yeseroni">
+        <CollisionSystem exists="yes"/>
+        <DrawSystem exists="yes"/>
+        <GameSystem exists="no"/>
+        <KeyPressSystem exists="no"/>
+        <MouseUpdateSystem exists="no"/>
+        <PhysicsSystem exists="yes"/>
+        <ResizeSystem exists="yes"/>
+        <SpriteSystem exists="yes"/>
+        <TickSystem exists="yes"/>
+        <SaveSystem exits="yes"/>
+    </Systems>
+    <Systems/>
+    <Object x="100" y="100" width="100" height="100">
+    </Object>
+</Game>
