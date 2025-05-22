@@ -22,7 +22,7 @@ public class App extends Application {
     protected App(String title, Vec2d windowSize, boolean debugMode, boolean fullscreen) throws IOException, ParserConfigurationException, SAXException {
         super(title, windowSize, debugMode, fullscreen);
         this.windowSize = windowSize;
-        testScreen beginningScreen = new testScreen("NinTest", windowSize, gameDimensions);
+        tninMainScreen beginningScreen = new tninMainScreen("Wiz1", windowSize, gameDimensions);
         beginningScreen.myApp = this;
         screens = new ArrayList<>();
         screens.add(beginningScreen);

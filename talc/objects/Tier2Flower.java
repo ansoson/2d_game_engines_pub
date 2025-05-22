@@ -12,7 +12,7 @@ public class Tier2Flower extends AlcObject{
     }
 
 
-    public boolean onCollision(GameObject collidedWith) {
+    public boolean onCollision(GameObject collidedWith, Vec2d NULL) {
         if (((AlcObject)collidedWith).whatTier == 2){
             return onCollision((Tier2Flower) collidedWith);
         }

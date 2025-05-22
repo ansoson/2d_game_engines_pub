@@ -10,7 +10,7 @@ public class Tier3Flower extends AlcObject{
         this.whatTier = 3;
     }
 
-    public boolean onCollision(GameObject collidedWith) {
+    public boolean onCollision(GameObject collidedWith, Vec2d NULL) {
         return false;
     }
 }
